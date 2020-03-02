@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TJKSearchJokesViewController">
+            <connections>
+                <outlet property="searchBox" destination="3sx-V8-PdI" id="K6c-73-O5w"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="QOE-FA-gAp"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <searchBar contentMode="redraw" placeholder="Enter Search Word(s)" translatesAutoresizingMaskIntoConstraints="NO" id="3sx-V8-PdI">
+                    <rect key="frame" x="8" y="78" width="584" height="44"/>
+                    <textInputTraits key="textInputTraits"/>
+                </searchBar>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="3sx-V8-PdI" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="78" id="1jm-42-XZg"/>
+                <constraint firstAttribute="trailing" secondItem="3sx-V8-PdI" secondAttribute="trailing" constant="8" id="gEr-Ga-SWV"/>
+                <constraint firstItem="3sx-V8-PdI" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="rbE-wI-vwr"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+            <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+            <point key="canvasLocation" x="873" y="523"/>
+        </view>
+    </objects>
+</document>
